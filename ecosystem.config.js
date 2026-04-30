@@ -10,11 +10,9 @@ module.exports = {
       max_memory_restart: '1G', // Khởi động lại nếu sử dụng quá 1GB RAM
       env: {
         NODE_ENV: 'production',
-        PORT: 2000,
       },
       env_development: {
         NODE_ENV: 'development',
-        PORT: 2000,
       },
     },
   ],
