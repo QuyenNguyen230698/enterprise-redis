@@ -14,6 +14,7 @@ const winston = require("winston");
 const rateLimit = require("express-rate-limit");
 const postgres = require("./config/postgres");
 require("./cronJob/meetingWorker"); // Kích hoạt Worker quét Postgres
+require("./cronJob/zoomCleanupWorker"); // Kích hoạt cron dọn link Zoom hết hạn
 
 
 

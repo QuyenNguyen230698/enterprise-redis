@@ -1,6 +1,7 @@
-const app = require('./app/index');
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 
-require('dotenv').config();
+const app = require('./app/index');
 
 const PORT = process.env.PORT || 3000;
 
